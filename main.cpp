@@ -4,10 +4,10 @@ void printBinary(int n, char format = 1);
 void RemoveDups(char *pStr);
 
 int main() {
-    /* Chapter 1 */
-    printBinary(137);
+    /* Part 1 */
+    printBinary(-137);
 
-    /* Chapter 2 */
+    /* Part 2 */
     char str[80] = "AAA BBB AAA CKKK";
     RemoveDups(str);
     printf("%s\n", str);
